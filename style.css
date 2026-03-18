@@ -9666,3 +9666,31 @@ swiper-button-prev-hero {
     margin: 0;
     margin-right: auto;
 }
+
+@media (max-width: 1236px) {
+    .before-after__wrapper {
+        display: block;
+    }
+
+    .before-after__title {
+        margin-bottom: 0;
+    }
+
+    .before-after__item {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-button-wrapper-before-after {
+        left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .before-after__wrapper {
+        padding: 25px;
+    }
+}

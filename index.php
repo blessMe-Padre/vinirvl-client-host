@@ -99,34 +99,32 @@ get_header();
     </section> -->
 
     <section class="before-after">
-        <div class="container">
-            <div class="before-after__wrapper">
-                <div class="before-after__item relative">
-                    <h2 class="before-after__title">до|после</h2>
-                    <div class="swiper-button-wrapper swiper-button-wrapper-before-after">
-                        <div class="swiper-button-prev-hero" tabindex="0" role="button" aria-label="Previous slide">
-                        </div>
-                        <div class="swiper-button-next-hero" tabindex="0" role="button" aria-label="Next slide"></div>
+        <div class="before-after__wrapper">
+            <div class="before-after__item relative">
+                <h2 class="before-after__title">до|после</h2>
+                <div class="swiper-button-wrapper swiper-button-wrapper-before-after">
+                    <div class="swiper-button-prev-hero" tabindex="0" role="button" aria-label="Previous slide">
                     </div>
+                    <div class="swiper-button-next-hero" tabindex="0" role="button" aria-label="Next slide"></div>
                 </div>
+            </div>
 
-                <div class="w-0 min-w-[100%] relative">
-                    <div class="before-after-slider swiper">
-                        <ul class="swiper-wrapper justify-stretch">
-                            <li class="swiper-slide">
-                                <img src="<?php echo get_template_directory_uri() ?>/src/img/before/image-1.webp"
-                                    width="867" height="482" alt="before">
-                            </li>
-                            <li class="swiper-slide">
-                                <img src="<?php echo get_template_directory_uri() ?>/src/img/before/image-1.webp"
-                                    width="867" height="482" alt="before">
-                            </li>
-                            <li class="swiper-slide">
-                                <img src="<?php echo get_template_directory_uri() ?>/src/img/before/image-1.webp"
-                                    width="867" height="482" alt="before">
-                            </li>
-                        </ul>
-                    </div>
+            <div class="w-0 min-w-[100%] relative">
+                <div class="before-after-slider swiper">
+                    <ul class="swiper-wrapper justify-stretch">
+                        <li class="swiper-slide">
+                            <img src="<?php echo get_template_directory_uri() ?>/src/img/before/image-1.webp"
+                                width="867" height="482" alt="before">
+                        </li>
+                        <li class="swiper-slide">
+                            <img src="<?php echo get_template_directory_uri() ?>/src/img/before/image-1.webp"
+                                width="867" height="482" alt="before">
+                        </li>
+                        <li class="swiper-slide">
+                            <img src="<?php echo get_template_directory_uri() ?>/src/img/before/image-1.webp"
+                                width="867" height="482" alt="before">
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
