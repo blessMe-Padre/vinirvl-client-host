@@ -7745,6 +7745,18 @@ swiper-button-prev-hero {
     background-size: contain;
 }
 
+.special-conditions_logo {
+    width: 172px;
+    height: 107px;
+    margin-top: 50px;
+
+    img {
+        width: 172px;
+        max-width: 172px;
+        height: 107px
+    }
+}
+
 .special-conditions h2 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
@@ -7777,6 +7789,18 @@ swiper-button-prev-hero {
 .special-conditions_wrapper {
     margin-top: auto;
     width: 30%;
+}
+
+.special-conditions_button .info-link {
+    background-color: #ffffff;
+}
+
+.special-conditions_button .info-link span {
+    color: #152033;
+}
+
+.special-conditions_button .info-link svg {
+    fill: #152033;
 }
 
 @media (max-width: 560px) {

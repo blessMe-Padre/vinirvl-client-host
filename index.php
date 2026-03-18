@@ -37,11 +37,16 @@ get_header();
     </section>
 
     <section class="special-conditions">
-        <div>
-            <h2>Специальные условия для вас:</h2>
-            <p class="special-conditions_desc">7000 рублей, <span>которыми вы можете оплатить</span></p>
-            <p class="special-conditions_desc">до&nbsp;100% стоимости <span>реставрации винирами</span></p>
+        <div class="special-conditions_logo">
+            <img src="<?php echo get_template_directory_uri() ?>/src/img/special-logo.svg" width="172" height="107"
+                alt="logo">
         </div>
+        <div>
+            <h2>Специальные<br> условия для вас:</h2>
+            <p class="special-conditions_desc">УСПЕЙТЕ!</p>
+            <p class="special-conditions_desc"><span>МИНУС 30% </span>на РЕСТАВРАЦИЮ УЛЫБКИ <span>ВИНИРАМИ!</span></p>
+        </div>
+
         <div class="special-conditions_button">
             <a class="info-link popup-link" href="#popup">
                 <span>Записаться</span>
@@ -52,8 +57,8 @@ get_header();
             </a>
         </div>
         <div class="special-conditions_wrapper">
-            <p class="special-conditions_text">Предложение действует до 31.08.2025. Не подлежит обмену на денежные
-                средства.</p>
+            <p class="special-conditions_text">Предложение ограничено и действует только
+                для первых обратившихся 30 пациентов</p>
         </div>
     </section>
 
