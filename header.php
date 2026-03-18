@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="<?php echo get_template_directory_uri() ?>/src/fonts/BebasNeueBold.woff2" as="font"
         type="font/woff2" crossorigin>
-    <!-- <title><?php wp_title('|', true, 'right'); ?></title> -->
-    <title>Винир VL</title>
+    <title><?php wp_title('|', true, 'right'); ?></title>
     <?php wp_head(); ?>
 </head>
 
@@ -61,25 +60,27 @@
                     <nav class="menu-window__block">
                         <p>УСЛУГИ</p>
                         <ul class="menu-window__list menu-window__list--column">
-                            <li><a href="#">Профессиональная гигиена зубов</a></li>
-                            <li><a href="#">Лечение зубов</a></li>
-                            <li><a href="#">Зубы за день, за 8 часов</a></li>
-                            <li><a href="#">Имплантация, протезирование и перепротезирование</a></li>
-                            <li><a href="#">Имплантация без костной пластики</a></li>
-                            <li><a href="#">Виниры, Брекеты и элайнеры</a></li>
-                            <li><a href="#">Профессиональная гигиена зубов</a></li>
-                            <li><a href="#">Лечение зубов</a></li>
+                            <li><a href="https://vladstom.ru/lecheniezubov/">Лечение зубов</a></li>
+                            <li><a href="https://vladstom.ru/zubzaden/">Зубы за день, за 8 часов</a></li>
+                            <li><a href="https://vladstom.ru/region/">Имплантация, протезирование и
+                                    перепротезирование</a></li>
+                            <li><a href="https://vladstom.ru/implantation/">Имплантация без костной пластики</a></li>
+                            <li><a href="https://vladstom.ru/flexligner/">Виниры, Брекеты и элайнеры</a></li>
+                            <li><a href="https://vladstom.ru/lechenie-zubov-pod-narkokom/">Лечение под наркозом</a></li>
+                            <li><a href="https://vladstom.ru/otbelivanie-i-gigiena/">Гигиена зубов и отбеливание</a>
+                            </li>
+                            <li><a href="https://vladstom.ru/lecheniezuba/">Лечение зуба</a></li>
                         </ul>
                     </nav>
                     <nav class="menu-window__block">
                         <p>ПАЦИЕНТАМ</p>
                         <ul class="menu-window__list">
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Наши работы</a></li>
-                            <li><a href="#">Вопросы и ответы</a></li>
-                            <li><a href="#">Пациентам</a></li>
-                            <li><a href="#">Информация</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="https://vladstom.ru/about/">О компании</a></li>
+                            <li><a href="https://vladstom.ru/nashi-raboti/">Наши работы</a></li>
+                            <li><a href="https://vladstom.ru/vopros/">Вопросы и ответы</a></li>
+                            <li><a href="https://vladstom.ru/pacientam/">Пациентам</a></li>
+                            <li><a href="https://vladstom.ru/information/">Информация</a></li>
+                            <li><a href="https://vladstom.ru/contacts/">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>

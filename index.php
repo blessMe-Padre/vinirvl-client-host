@@ -10,7 +10,7 @@ get_header();
 </div>
 
 <div class="container">
-    <!-- <section class="hero-1">
+    <section class="hero-1">
         <h1 class="hero-title-1">винир <span>VS</span> коронка</h1>
 
         <div class="hero_wrapper">
@@ -34,9 +34,9 @@ get_header();
                 </ul>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="special-conditions">
+    <section class="special-conditions">
         <div>
             <h2>Специальные условия для вас:</h2>
             <p class="special-conditions_desc">7000 рублей, <span>которыми вы можете оплатить</span></p>
@@ -55,9 +55,9 @@ get_header();
             <p class="special-conditions_text">Предложение действует до 31.08.2025. Не подлежит обмену на денежные
                 средства.</p>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="quote-section">
+    <section class="quote-section">
         <div class="quote-section_wrapper">
             <div class="quote-section_image">
                 <img src="<?php echo get_template_directory_uri() ?>/src/img/image-12.webp" width="588" height="633"
@@ -96,7 +96,7 @@ get_header();
                     </div>
                 </div>
             </div>
-    </section> -->
+    </section>
 
     <section class="before-after">
         <div class="before-after__wrapper">
@@ -174,7 +174,6 @@ get_header();
     </section>
 
     <?php load_template(get_stylesheet_directory() . '/include/our-partners.php'); ?>
-    <?php load_template(get_stylesheet_directory() . '/include/portfolio.php'); ?>
 </div>
 
 <?php get_footer(); ?>
