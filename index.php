@@ -103,7 +103,7 @@ get_header();
             <div class="before-after__wrapper">
                 <div class="before-after__item relative">
                     <h2 class="before-after__title">до|после</h2>
-                    <div class="swiper-button-wrapper">
+                    <div class="swiper-button-wrapper swiper-button-wrapper-before-after">
                         <div class="swiper-button-prev-hero" tabindex="0" role="button" aria-label="Previous slide">
                         </div>
                         <div class="swiper-button-next-hero" tabindex="0" role="button" aria-label="Next slide"></div>
